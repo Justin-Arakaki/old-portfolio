@@ -1,4 +1,7 @@
 import React from 'react';
+import TruestreamPic from '../assets/images/truestream.png';
+import AnicriticPic from '../assets/images/anicritic.png';
+import YouAreHerePic from '../assets/images/you-are-here.jpg';
 import {
   Container,
   Typography,
@@ -38,7 +41,7 @@ export default function Projects(props) {
           <CardMedia
             component='img'
             height='250'
-            image='src/assets/images/truestream.png'
+            image={TruestreamPic}
             alt='truestream'
           />
           <CardContent>
@@ -79,7 +82,7 @@ export default function Projects(props) {
           <CardMedia
             component='img'
             height='250'
-            image='src/assets/images/anicritic.png'
+            image={AnicriticPic}
             alt='anicritic'
           />
           <CardContent>
@@ -114,7 +117,7 @@ export default function Projects(props) {
           <CardMedia
             component='img'
             height='250'
-            image='src/assets/images/you-are-here.jpg'
+            image={YouAreHerePic}
             alt='truestream'
           />
           <CardContent>
