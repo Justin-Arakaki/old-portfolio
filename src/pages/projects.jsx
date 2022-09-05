@@ -85,7 +85,7 @@ export default function Projects(props) {
           <CardContent>
             <Box sx={flexy}>
               <Typography variant='body1' color='text.secondary'>
-                Vanilla
+                Vanilla.js
               </Typography>
               <Typography variant='body1' color='text.secondary'>
                 AJAX
