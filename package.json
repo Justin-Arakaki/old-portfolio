@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "homepage": "http://justin-arakaki.github.io/",
-  "private": false,
+  "homepage": "http://justin-arakaki.github.io/portfolio",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
