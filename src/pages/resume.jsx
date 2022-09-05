@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Container,
   Typography,
@@ -12,8 +11,14 @@ export default function Resume(props) {
       <Typography variant='h2' textAlign='center' mb='2rem'>
         See my credentials
       </Typography>
-      <Card p='2rem'>
-        <iframe src="http://docs.google.com/gview?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" style="width:600px; height:500px;" frameBorder="0"/>
+      <Card sx={{ display: 'flex', justifyContent: 'center', p: '2rem' }}>
+        <iframe
+          src="https://drive.google.com/file/d/1le8mzq0RoQL98GaaQGwit-JHSX1NRbi4/preview"
+          width="100%"
+          height="500"
+          allow="autoplay"
+        >
+        </iframe>
       </Card>
     </Container>
   );
