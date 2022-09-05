@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
-  Paper,
-  Typography,
   Box,
-  Container,
   Tabs,
   Tab
 } from '@mui/material';
@@ -16,24 +14,51 @@ export default function AppBar(props) {
   const textColor = '#fff';
 
   return (
-    <Box
-      sx={{
-        position: 'fixed',
-        width: '100vw',
-        display: 'flex',
-        justifyContent: 'center'
-      }}
-    >
-      <Tabs
-        value={tabSelection}
-        onChange={handleTabChange}
-        textColor='secondary'
+    <>
+      <Box
+        sx={{
+          position: 'fixed',
+          width: '100vw',
+          display: 'flex',
+          justifyContent: 'center'
+        }}
       >
-        <Tab label='Home' disableRipple={true} sx={{ color: textColor }} />
-        <Tab label='Projects' disableRipple={true} sx={{ color: textColor }} />
-        <Tab label='Resume' disableRipple={true} sx={{ color: textColor }} />
-        <Tab label='Contact' disableRipple={true} sx={{ color: textColor }} />
-      </Tabs>
-    </Box>
+        <Tabs
+          value={tabSelection}
+          onChange={handleTabChange}
+          textColor='secondary'
+        >
+          <Tab
+            label='Home'
+            disableRipple={true}
+            to='/'
+            component={Link}
+            sx={{ color: textColor }}
+          />
+          <Tab
+            label='Projects'
+            disableRipple={true}
+            to='/projects'
+            component={Link}
+            sx={{ color: textColor }}
+          />
+          <Tab
+            label='Resume'
+            disableRipple={true}
+            to='/resume'
+            component={Link}
+            sx={{ color: textColor }}
+          />
+          <Tab
+            label='Contact'
+            disableRipple={true}
+            to='/contact'
+            component={Link}
+            sx={{ color: textColor }}
+          />
+        </Tabs>
+      </Box>
+      <Box height='4rem' />
+    </>
   );
 }

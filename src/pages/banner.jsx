@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactJsIcon from './mui-icons/react-js-icon';
-import NodeJsIcon from './mui-icons/node-js-icon';
-import TypescriptIcon from './mui-icons/typescript-icon';
+import ReactJsIcon from '../components/mui-icons/react-js-icon';
+import NodeJsIcon from '../components/mui-icons/node-js-icon';
+import TypescriptIcon from '../components/mui-icons/typescript-icon';
 import {
   Container,
   Typography,
@@ -44,12 +44,12 @@ export default function Banner(props) {
         <Typography variant='h3'>Stuff I use -&gt;</Typography>
         <Box sx={flexy}>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <ReactJsIcon height='2rem' />
-            <Typography display='inline' variant='h3'>React.js</Typography>
-          </Box>
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <NodeJsIcon height='2rem' />
             <Typography display='inline' variant='h3'>Node.js</Typography>
+          </Box>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <ReactJsIcon height='2rem' />
+            <Typography display='inline' variant='h3'>React.js</Typography>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <TypescriptIcon height='2rem' />
@@ -62,19 +62,19 @@ export default function Banner(props) {
       </Typography>
       <Box sx={{ width: '80%', textAlign: 'center' }}>
         <Typography display='inline' variant='body1' mt='1rem'>
-          I am another mechanical engineer turning to web development for new  learning experiences. Programming is interesting, versatile, and addicting.
+          I am a web developer going all-in from a mechanical engineering career. Programming is interesting, versatile, and addicting.
         </Typography>
         <Typography display='inline' variant='body1' color='text.secondary'>
           &nbsp;I love it.&nbsp;
         </Typography>
         <Typography display='inline' variant='body1'>
-          I do have special interest in
+          I love finding interesting solutions and learning from others. I have a special interest in
         </Typography>
         <Typography display='inline' variant='body1' color='text.secondary'>
           &nbsp;backend development&nbsp;
         </Typography>
         <Typography display='inline' variant='body1'>
-          but I am also competent in frontend.
+          and I am also competent in frontend.
         </Typography>
       </Box>
     </Container>
