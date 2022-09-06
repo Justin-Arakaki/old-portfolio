@@ -13,6 +13,7 @@ export default function AppBar(props) {
   };
   const textColor = '#fff';
 
+  // TODO: Link -> NavLink follow Jay's example
   return (
     <>
       <Box

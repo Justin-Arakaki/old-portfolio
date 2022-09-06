@@ -105,10 +105,10 @@ export default function Projects(props) {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button href='https://justin-arakaki.github.io/ajax-project/'>
+            <Button href='https://justin-arakaki.github.io/anicritic/'>
               Demo
             </Button>
-            <Button href='https://github.com/Justin-Arakaki/ajax-project'>
+            <Button href='https://github.com/Justin-Arakaki/anicritic'>
               GitHub
             </Button>
           </CardActions>
