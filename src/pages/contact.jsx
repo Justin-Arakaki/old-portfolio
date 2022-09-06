@@ -29,10 +29,10 @@ export default function Contact(props) {
           Phone: (714)393-9403
         </Typography>
         <Box sx={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
-          <IconButton>
+          <IconButton href='https://github.com/Justin-Arakaki'>
             <GithubIcon height='4rem' />
           </IconButton>
-          <IconButton>
+          <IconButton href='https://www.linkedin.com/in/jrarakaki/'>
             <LinkedInIcon height='4rem' />
           </IconButton>
         </Box>
