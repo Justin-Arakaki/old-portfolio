@@ -68,13 +68,7 @@ export default function Banner(props) {
           &nbsp;I love it.&nbsp;
         </Typography>
         <Typography display='inline' variant='body1'>
-          I love finding interesting solutions and learning from others. I have a special interest in
-        </Typography>
-        <Typography display='inline' variant='body1' color='text.secondary'>
-          &nbsp;backend development&nbsp;
-        </Typography>
-        <Typography display='inline' variant='body1'>
-          and I am also competent in frontend.
+          I love finding interesting solutions and learning from others.
         </Typography>
       </Box>
     </Container>
