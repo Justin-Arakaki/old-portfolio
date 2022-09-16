@@ -62,13 +62,19 @@ export default function Banner(props) {
       </Typography>
       <Box sx={{ width: '80%', textAlign: 'center' }}>
         <Typography display='inline' variant='body1' mt='1rem'>
-          I am a web developer going all-in from a mechanical engineering career. Programming is interesting, versatile, and addicting.
+          I am a web developer going all-in from a mechanical engineering career. Programming is interesting, versatile, and
         </Typography>
         <Typography display='inline' variant='body1' color='text.secondary'>
-          &nbsp;I love it.&nbsp;
+          &nbsp;addicting.&nbsp;
         </Typography>
         <Typography display='inline' variant='body1'>
-          I love finding interesting solutions and learning from others.
+          I love finding interesting solutions and learning from others. I have special interest in
+        </Typography>
+        <Typography display='inline' variant='body1' color='text.secondary'>
+          &nbsp;backend development&nbsp;
+        </Typography>
+        <Typography display='inline' variant='body1'>
+          but am also proficient in frontend.
         </Typography>
       </Box>
     </Container>
