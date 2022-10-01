@@ -13,7 +13,7 @@ export default function Banner(props) {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    gap: '2rem'
+    gap: { xs: '1.5rem', sm: '2rem' }
   };
 
   return (
@@ -21,9 +21,11 @@ export default function Banner(props) {
       maxWidth='md'
       sx={{
         display: 'flex',
+        justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        py: '8rem'
+        height: { xs: '', lg: '90vh' },
+        my: { xs: '4rem', lg: '0' }
       }}
     >
       <Box sx={{ display: 'inline-block' }}>
@@ -40,7 +42,7 @@ export default function Banner(props) {
           A full-stack web developer.
         </Typography>
       </Box>
-      <Box mt='4rem' sx={flexy}>
+      <Box sx={{ ...flexy, my: { xs: '2.5rem', sm: '4rem' } }}>
         <Typography variant='h3'>Stuff I use -&gt;</Typography>
         <Box sx={flexy}>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -57,7 +59,7 @@ export default function Banner(props) {
           </Box>
         </Box>
       </Box>
-      <Typography variant='h2' mt='4rem'>
+      <Typography variant='h2'>
         A bit about me...
       </Typography>
       <Box sx={{ width: '80%', textAlign: 'center' }}>

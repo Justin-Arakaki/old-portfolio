@@ -39,7 +39,10 @@ const defaultTheme = createTheme({
     h1: {
       fontFamily: headingTypeface,
       fontWeight: 500,
-      fontSize: '4rem'
+      fontSize: '4rem',
+      '@media (max-width:600px)': {
+        fontSize: '2rem'
+      }
     },
     h2: {
       fontFamily: headingTypeface,
